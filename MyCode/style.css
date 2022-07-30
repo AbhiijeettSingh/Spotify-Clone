@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,400&display=swap');
+body{
+    background-color:#CAD5E2 ;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: Roboto;
+    background-color: #111111;
+    color: #fff;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    margin-left: 1rem;
+}
+.logo img{
+    width: 3rem;
+}
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 75vw;
+    margin: 1rem auto;
+    border-radius: 12px;
+    padding: .5rem;
+    background: url(../bg.jpg) no-repeat;
+    background-size: cover;
+    /* background-size: cover; */
+}
+.container .songList .songBanner{
+    flex: 1;
+
+}
+@media (max-width: 900px) {
+    .container{
+        background-size: ;
+    }
+}
+
+.bottom{
+    position: sticky;
+    top: 80vh;
+    bottom: 0;
+    height: 5rem;
+    background-color: #111111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.bottom div{
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.bottom #myProgressBar{
+    width: 80vw;
+    display: block;
+    margin: 0 auto;
+    /* text-align: center;
+    margin: 0 auto; */
+}
+.bottom .icons i{
+    margin: 0.2rem;
+    cursor: pointer;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: .5rem auto;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+.songItem img{
+    height: 2rem;
+    margin: 0 1.5rem;
+}
+.songItem i{
+    margin: 0 .8rem;
+    cursor: pointer;
+    
+
+
+}
